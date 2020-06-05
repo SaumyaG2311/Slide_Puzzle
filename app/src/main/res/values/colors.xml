@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="gameBackground">#FAFAFA</color>
+    <color name="puzzleBlock">#BBDEFB</color>
+    <color name="puzzleBlockText">#025da9</color>
+    <color name="txt">#FFF200</color>
+<!--    <color name="back">#E39FF6</color>-->
+    <color name="back">#000000</color>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/content_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstMain"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@color/back"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/txt"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:background="@color/back"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center_horizontal"
+        android:padding="10sp"
+        android:text="PLAY"
+        android:textColor="@color/txt"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

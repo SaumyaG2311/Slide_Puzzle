@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FF165DC0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:fontFamily="@font/freckle_face"
+        android:gravity="center"
+        android:text="Select The Size"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button_three_x_three"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:background="#89CFF0"
+        android:fontFamily="@font/fontdiner_swanky"
+        android:padding="10sp"
+        android:text="@string/threeXthree"
+        android:textSize="50sp" />
+
+    <Button
+        android:textSize="50sp"
+        android:id="@+id/button_four_x_four"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fontdiner_swanky"
+        android:padding="10sp"
+        android:background="#89CFF0"
+        android:text="@string/fourXfour"/>
+
+    <Button
+        android:id="@+id/button_five_x_five"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fontdiner_swanky"
+        android:textSize="50sp"
+        android:background="#89CFF0"
+        android:layout_margin="30sp"
+        android:padding="10sp"
+        android:text="@string/fiveXfive"/>
+
+</LinearLayout>
