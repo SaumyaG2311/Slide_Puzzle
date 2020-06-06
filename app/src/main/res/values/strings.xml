@@ -8,7 +8,7 @@
     <string name="instruction">Touch the block you want to move. Good Luck :)</string>
     <string name="new_game">New Game</string>
     <string name="solve">Solve</string>
+    <string name="rules">Slide Puzzle - Artfully headaches! The pieces are to be pushed around over the board until the picture is complete.The pieces are numbered so that you will know in which order they should be.You can only move one piece at a time and you do it by clicking on it.When you want to move several pieces, you must click on one piece at a time.The number on each piece tells where in the puzzle it belongs.The piece marked 1 should be in the upper left corner of the slide puzzle.This is how the pieces should be arranged when the puzzle is solved.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

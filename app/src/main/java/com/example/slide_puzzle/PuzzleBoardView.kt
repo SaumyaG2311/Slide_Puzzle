@@ -6,13 +6,10 @@ import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Point
-import android.os.CountDownTimer
 import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import kotlinx.android.synthetic.main.fragment_puzzle.*
-import kotlinx.android.synthetic.main.fragment_puzzle.view.*
 
 @SuppressLint("ViewConstructor")
 
